@@ -5,6 +5,7 @@ using UnrealBuildTool;
 
 public class OpenCv : ModuleRules
 {
+	public const string OpenCvVersion = "420";
 	public const bool ForceDebug = false; 
 	
 	private string LibrariesPath
@@ -43,11 +44,12 @@ public class OpenCv : ModuleRules
 			
 			var libDir = Path.Combine(ModuleDirectory, "lib");
 
-            var libName = "opencv_world452";
+            var libName = "opencv_world" + OpenCvVersion;
             if (Target.Configuration == UnrealTargetConfiguration.Debug &&
                 Target.bDebugBuildsActuallyUseDebugCRT || ForceDebug)
 			{
 					libName += "d";
+					Console.WriteLine("Debug open cv");
 			}
 
 			var dynamicLibName = libName + ".dll";

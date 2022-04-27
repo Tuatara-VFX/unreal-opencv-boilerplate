@@ -3,11 +3,11 @@
 using System;
 using UnrealBuildTool;
 
-public class TestOpenCV : ModuleRules
+public class TestModule : ModuleRules
 {
-	public TestOpenCV(ReadOnlyTargetRules Target) : base(Target)
+	public TestModule(ReadOnlyTargetRules Target) : base(Target)
 	{
-		Console.WriteLine("Adding TestOpenCV module");
+		Console.WriteLine("Adding TestModule module");
 
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

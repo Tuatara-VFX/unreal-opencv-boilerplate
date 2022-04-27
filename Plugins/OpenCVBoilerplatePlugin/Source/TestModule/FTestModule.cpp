@@ -1,13 +1,13 @@
-﻿#include "FTestOpenCVModule.h"
+﻿#include "FTestModule.h"
 
 
 #include <opencv2/core/core.hpp>
 
-FTestOpenCVModule::FTestOpenCVModule()
+FTestModule::FTestModule()
 {
 }
 
-void FTestOpenCVModule::StartupModule()
+void FTestModule::StartupModule()
 {
 	IModuleInterface::StartupModule();
 	UE_LOG(LogTemp, Warning, TEXT("Startup..."));
@@ -16,9 +16,9 @@ void FTestOpenCVModule::StartupModule()
 	
 }
 
-void FTestOpenCVModule::ShutdownModule()
+void FTestModule::ShutdownModule()
 {
 	IModuleInterface::ShutdownModule();
 }
 
-IMPLEMENT_MODULE(FTestOpenCVModule, TestOpenCV)
+IMPLEMENT_MODULE(FTestModule, TestModule)

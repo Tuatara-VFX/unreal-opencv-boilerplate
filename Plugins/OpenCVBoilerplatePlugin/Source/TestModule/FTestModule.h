@@ -1,9 +1,9 @@
 ﻿#pragma once
 
-class FTestOpenCVModule : public IModuleInterface
+class FTestModule : public IModuleInterface
 {
 public:
-	FTestOpenCVModule();
+	FTestModule();
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 };

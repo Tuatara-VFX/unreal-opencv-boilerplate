@@ -1,6 +1,6 @@
-Plugins/TestOpenCV/Source/ThirdParty/ExternalOpenCV/lib/
-Plugins/TestOpenCV/Source/ThirdParty/ExternalOpenCV/bin/
-Plugins/TestOpenCV/Source/ThirdParty/ExternalOpenCV/include/
+*.dll
+*.lib
+**/ThirdParty/**/include/
 
 # Visual Studio 2015 user specific files
 .vs/

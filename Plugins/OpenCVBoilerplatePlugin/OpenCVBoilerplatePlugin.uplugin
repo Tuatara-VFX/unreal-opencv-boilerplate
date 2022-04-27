@@ -2,11 +2,11 @@
   "FileVersion": 3,
   "Version": 1,
   "VersionName": "1.0",
-  "FriendlyName": "TestOpenCV",
+  "FriendlyName": "OpenCVBoilerplatePlugin",
   "Description": "",
-  "Category": "FX",
-  "CreatedBy": "TuataraVFX",
-  "CreatedByURL": "https://tuataragames.com/",
+  "Category": "",
+  "CreatedBy": "",
+  "CreatedByURL": "",
   "DocsURL": "",
   "MarketplaceURL": "",
   "SupportURL": "",
@@ -16,7 +16,7 @@
   "Installed": false,
   "Modules": [
     {
-      "Name": "TestOpenCV",
+      "Name": "TestModule",
       "Type": "Editor",
       "LoadingPhase": "PreDefault",
       "WhitelistPlatforms": [

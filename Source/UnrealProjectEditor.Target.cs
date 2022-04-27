@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class ToolsEditorTarget : TargetRules
+public class UnrealProjectEditorTarget : TargetRules
 {
-	public ToolsEditorTarget(TargetInfo Target) : base(Target)
+	public UnrealProjectEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "Tools" } );
+		ExtraModuleNames.AddRange( new string[] { "UnrealProject" } );
 	}
 }

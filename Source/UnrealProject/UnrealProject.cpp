@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "Tools.h"
+#include "UnrealProject.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, Tools, "Tools" );
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, UnrealProject, "UnrealProject" );

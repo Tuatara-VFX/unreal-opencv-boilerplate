@@ -1,0 +1,27 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "TestOpenCV",
+  "Description": "",
+  "Category": "FX",
+  "CreatedBy": "TuataraVFX",
+  "CreatedByURL": "https://tuataragames.com/",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "TestOpenCV",
+      "Type": "Editor",
+      "LoadingPhase": "PreDefault",
+      "WhitelistPlatforms": [
+        "Win64"
+      ]
+    }
+  ]
+}

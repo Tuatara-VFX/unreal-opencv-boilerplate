@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.IO;
 using UnrealBuildTool;
 
-public class ExternalOpenCv : ModuleRules
+public class OpenCv : ModuleRules
 {
 	public const bool ForceDebug = false; 
 	
@@ -27,7 +27,7 @@ public class ExternalOpenCv : ModuleRules
 		get { return Path.GetFullPath(Path.Combine(ModuleDirectory, "../../../Binaries")); } 
 	}
 	
-	public ExternalOpenCv(ReadOnlyTargetRules Target) : base(Target)
+	public OpenCv(ReadOnlyTargetRules Target) : base(Target)
 	{
 		Console.WriteLine("Adding External OpenCV module");
 		Type = ModuleType.External;

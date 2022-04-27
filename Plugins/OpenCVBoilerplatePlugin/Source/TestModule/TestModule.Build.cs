@@ -11,7 +11,7 @@ public class TestModule : ModuleRules
 
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "ExternalOpenCv" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "OpenCv" });
 
 		PrivateDependencyModuleNames.AddRange(
 			new string[]

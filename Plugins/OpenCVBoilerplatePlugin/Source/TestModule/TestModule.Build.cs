@@ -11,11 +11,12 @@ public class TestModule : ModuleRules
 
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "OpenCv" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core" });
 
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
+				"CustomOpenCv",
 				"CoreUObject",
 				"Engine",
 				"Slate",

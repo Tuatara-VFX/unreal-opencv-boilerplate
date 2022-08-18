@@ -16,9 +16,17 @@
   "Installed": false,
   "Modules": [
     {
+      "Name": "CustomOpenCv",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "WhitelistPlatforms": [
+        "Win64"
+      ]
+    },
+    {
       "Name": "TestModule",
       "Type": "Editor",
-      "LoadingPhase": "PreDefault",
+      "LoadingPhase": "Default",
       "WhitelistPlatforms": [
         "Win64"
       ]

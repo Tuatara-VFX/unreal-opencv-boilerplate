@@ -1,6 +1,7 @@
 *.dll
 *.lib
 **/ThirdParty/**/include/
+Plugins/Developer/RiderLink
 
 # Visual Studio 2015 user specific files
 .vs/
